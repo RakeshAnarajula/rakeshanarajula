@@ -97,6 +97,7 @@ const App = () => {
         <span className="block w-full h-1 bg-gradient-to-r from-blue-400 via-purple-500 to-orange-900 mt-1 animate-[underline_1s_ease-in-out]"></span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 w-full max-w-6xl">
+        <Card image="/Business Intelligence & Analytics.jpg" title="VS Tech Waves" description="Delivering innovative technology solutions to businesses worldwide." path="https://vsvstechwaves.com/" isExternal={true} />
         <Card image="/EzDoesIt-Container-Logistics.webp" title="Ezbarrel" description="Your Trusted Partner for Seamless Shipping to the Caribbean." path="https://ezbarrel.vercel.app/" isExternal={true} />
         <Card image="/N2N.jpg" title="N2N Distributors Ltd." description="Shipping Customer Service" path="https://n2n-distributors.vercel.app/" isExternal={true} />
         <Card image="/starship.png" title="Star Caribbean Shipping" description="Delivering Excellence Through Strategic Logistics." path="https://starcaribbeanshipping.vercel.app/" isExternal={true} />
